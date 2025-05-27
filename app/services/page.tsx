@@ -11,7 +11,7 @@ export default function ServicesPage() {
       {/* Hero Section */}
       <section className="relative h-[40vh] overflow-hidden">
         <Image
-          src="/football-pitch-grass-2.jpg"    // rename your file to remove spaces
+          src="/football-pitch-grass2.jpg"    // rename your file to remove spaces
           alt="Grasmat met belijning"
           fill
           priority

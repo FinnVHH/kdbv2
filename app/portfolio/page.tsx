@@ -14,7 +14,7 @@ export default function PortfolioPage() {
     images: [
       "/football-pitch-grass1.jpg",
       "/football-pitch-grass-with-trainers.jpg",
-      "/football-pitch-grass-with-water.jpg",
+      "/football-pitch-grass-water.jpg",
       "/football-pitch-grass2.jpg",
     ],
   };
