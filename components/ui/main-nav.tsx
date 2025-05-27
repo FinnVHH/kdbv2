@@ -1,21 +1,18 @@
 // src/components/ui/main-nav.tsx
 "use client";
 
-import * as React from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
+  NavigationMenuList
 } from "@/components/ui/navigation-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { MenuIcon } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function MainNav() {
   const pathname = usePathname();

@@ -1,21 +1,19 @@
 // src/app/contact/page.tsx
 "use client";
 
-import { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
 import {
   Card,
   CardContent,
+  CardDescription,
   CardHeader,
   CardTitle,
-  CardDescription,
 } from "@/components/ui/card";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { Mail, MapPin, Phone } from "lucide-react";
+import { useState } from "react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({

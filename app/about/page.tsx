@@ -1,14 +1,14 @@
 // src/app/about/page.tsx
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import {
   Award,
-  Target,
-  Handshake,
-  Users,
-  Sparkles,
   CheckCircle2,
+  Handshake,
+  Sparkles,
+  Target,
+  Users,
 } from "lucide-react";
 import Image from "next/image";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function AboutPage() {
   return (
